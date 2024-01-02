@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhakshya Abhakshya</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/classification.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+</head>
+<body>  
+    <div style="position: relative;z-index: -99;">
+        <img style="width: 100%;height:100vh;position: fixed;" src="assets/images/Asset 12- bg normal.png">
+    </div>
+    <div>
+        <a href="index.html" id="previous-1" class="previous-page-icon">
+            <i class='bi bi-house-fill'></i>
+        </a>
+    </div>
+    
+    <style>
+        .bi-house-fill {
+            color: black !important;;
+        }
+    </style>
+    
+    <div class="dropdown">
+        <button class="dropbtn">Select Language</button>
+        <div class="dropdown-content">
+            <label>
+                <input type="radio" name="language" value="eng" checked>
+                E
+            </label>
+            <label>
+                <input type="radio" name="language" value="hindi">
+                H
+            </label>
+            <label>
+                <input type="radio" name="language" value="gujarati">
+                G
+            </label>
+        </div>
+    </div>
+    
+
+        
+        <div id="toptitle_classification_eng">
+            <span>BHAKSHYA ABHAKSHYA</span>
+        </div>
+        <div id="toptitle_classification_hindi">
+            <span>भक्ष्य अभक्ष्य</span>
+        </div>
+        <div id="toptitle_classification_gujarati">
+            <span>ભક્ષ્ય અભક્ષ્ય</span>
+        </div>
+        
+    <div class="container mt-5">
+        <div id="righticon"  onclick="changeSlideToNext()">
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <div id="lefticon" onclick="changeSlideToPrev()">
+            <i class="fas fa-angle-left"></i>
+        </div>
+        <div id="center_content" data-id="1" class="help">
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/strawberry.png" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 8- lemon.png" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 9- cauliflower.png" alt="Image 3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 6- blue box 1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Strawberry</div>
+                    <div class="image_hindi_text">स्ट्रॉबेरी</div>
+                    <div class="image_gujarati_text">સ્ટ્રોબેરી</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 6- blue box 1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Lemon</div>
+                    <div class="image_hindi_text">नींबू</div>
+                    <div class="image_gujarati_text">લીંબુ </div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Cauliflower </div>
+                    <div class="image_hindi_text">फूलगोभी</div>
+                    <div class="image_gujarati_text">ફૂલકોબી </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 7- blue box 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य</div>
+                    <div class="image_gujarati_text">ભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 7- blue box 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य</div>
+                    <div class="image_gujarati_text">ભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="2" class="help">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 13- coconut.png" alt="Image 9">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 14- neem.png" alt="Image 10">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 6- blue box 1.png" alt="Image 11">
+                    </div>
+                    <div class="image_eng_text">Coconut</div>
+                    <div class="image_hindi_text">नारियल</div>
+                    <div class="image_gujarati_text">નાળિયેર</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 15- yellow 1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">Coriander</div>
+                    <div class="image_hindi_text">धनिया</div>
+                    <div class="image_gujarati_text">કોથમીર</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 7- blue box 2.png" alt="Image 1">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य</div>
+                    <div class="image_gujarati_text">ભક્ષ્ય</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 16- yellow 2.png" alt="Image 14">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya/ Abhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य/ अभक्ष्य </div>
+                    <div class="image_gujarati_text">ભક્ષ્ય/ અભક્ષ્ય </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="3" class="help">
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 18-guava.png" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 19-pineapple.png" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 20- anjeer.png" alt="Image 3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 6- blue box 1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Guava</div>
+                    <div class="image_hindi_text">अमरूद</div>
+                    <div class="image_gujarati_text">જામફળ</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 6- blue box 1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Pineapple</div>
+                    <div class="image_hindi_text">अनानास</div>
+                    <div class="image_gujarati_text">પાઈનેપલ </div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Fig (Anjeer)</div>
+                    <div class="image_hindi_text">अंजीर</div>
+                    <div class="image_gujarati_text">અંજીર</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 7- blue box 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य</div>
+                    <div class="image_gujarati_text">ભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 7- blue box 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य</div>
+                    <div class="image_gujarati_text">ભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="4" class="help">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 21- mango.png" alt="Image 9">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 22- brinjal.png" alt="Image 10">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 15- yellow 1.png" alt="Image 11">
+                    </div>
+                    <div class="image_eng_text">Mango</div>
+                    <div class="image_hindi_text">आम</div>
+                    <div class="image_gujarati_text">કેરી</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">Brinjal</div>
+                    <div class="image_hindi_text">बैंगन</div>
+                    <div class="image_gujarati_text">રીંગણા</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 16- yellow 2.png" alt="Image 1">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya/ Abhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य/ अभक्ष्य </div>
+                    <div class="image_gujarati_text">ભક્ષ્ય/ અભક્ષ્ય </div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 14">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य </div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="5" class="help">
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 23- watermelon.png" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 24- potato.png" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 25- garlic.png" alt="Image 3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 6- blue box 1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Watermelon</div>
+                    <div class="image_hindi_text">तरबूज</div>
+                    <div class="image_gujarati_text">તરબૂચ</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Potato</div>
+                    <div class="image_hindi_text">आलू</div>
+                    <div class="image_gujarati_text">બટાટા</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Garlic</div>
+                    <div class="image_hindi_text">लहसुन</div>
+                    <div class="image_gujarati_text">લસણ</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 7- blue box 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य</div>
+                    <div class="image_gujarati_text">ભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="6" class="help">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 31- almond.png" alt="Image 9">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 32- ice cream.png" alt="Image 10">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 15- yellow 1.png" alt="Image 11">
+                    </div>
+                    <div class="image_eng_text">Almond</div>
+                    <div class="image_hindi_text">बादाम</div>
+                    <div class="image_gujarati_text">બદામ</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">Ice Cream</div>
+                    <div class="image_hindi_text">आइसक्रीम</div>
+                    <div class="image_gujarati_text">આઈસ્ક્રીમ</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 16- yellow 2.png" alt="Image 1">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya/ Abhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य/ अभक्ष्य </div>
+                    <div class="image_gujarati_text">ભક્ષ્ય/ અભક્ષ્ય </div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 14">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य </div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="7" class="help">
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 28- grapes.png" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 29- cig.png" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 30- bread.png" alt="Image 3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 6- blue box 1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Grapes</div>
+                    <div class="image_hindi_text">अंगूर</div>
+                    <div class="image_gujarati_text">દ્રાક્ષ</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Cigarette</div>
+                    <div class="image_hindi_text">सिगरेट</div>
+                    <div class="image_gujarati_text">સિગારેટ</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Bread</div>
+                    <div class="image_hindi_text">ब्रेड</div>
+                    <div class="image_gujarati_text">બ્રેડ</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 7- blue box 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य</div>
+                    <div class="image_gujarati_text">ભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="center_content" data-id="8" class="help">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 26- papaya.png" alt="Image 9">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 27- fenugreek.png" alt="Image 10">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 6- blue box 1.png" alt="Image 11">
+                    </div>
+                    <div class="image_eng_text">Papaya </div>
+                    <div class="image_hindi_text">पपीता</div>
+                    <div class="image_gujarati_text">પપૈયું</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 15- yellow 1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">Fenugreek (Methi)</div>
+                    <div class="image_hindi_text">मेथी</div>
+                    <div class="image_gujarati_text">મેથી</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 7- blue box 2.png" alt="Image 1">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य</div>
+                    <div class="image_gujarati_text">ભક્ષ્ય</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 16- yellow 2.png" alt="Image 14">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya/ Abhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य/ अभक्ष्य </div>
+                    <div class="image_gujarati_text">ભક્ષ્ય/ અભક્ષ્ય </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="9" class="help">
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 33- cashnewnut.png" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 34- gutka.png" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 35- tomato sauce.png" alt="Image 3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 15- yellow 1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Cashew nuts</div>
+                    <div class="image_hindi_text">काजू</div>
+                    <div class="image_gujarati_text">કાજુ</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Gutkha</div>
+                    <div class="image_hindi_text">गुटखा</div>
+                    <div class="image_gujarati_text">ગુટખા</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 15- yellow 1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Tomato Sauce</div>
+                    <div class="image_hindi_text">टोमेटो सोस</div>
+                    <div class="image_gujarati_text">ટોમેટો સોસ</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 16- yellow 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya/ Abhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य/ अभक्ष्य </div>
+                    <div class="image_gujarati_text">ભક્ષ્ય/ અભક્ષ્ય </div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 16- yellow 2.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya/ Abhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य/ अभक्ष्य </div>
+                    <div class="image_gujarati_text">ભક્ષ્ય/ અભક્ષ્ય </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="10" class="help">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 36- soft drinks.png" alt="Image 9">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 37- green peas.png" alt="Image 10">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">Cold drink</div>
+                    <div class="image_hindi_text">कोल्ड ड्रिंक</div>
+                    <div class="image_gujarati_text">કોલ્ડ ડ્રિન્ક</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 6- blue box 1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">Green Peas</div>
+                    <div class="image_hindi_text">हरे मटर</div>
+                    <div class="image_gujarati_text">લીલા વટાણા</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 14">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य </div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 7- blue box 2.png" alt="Image 1">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य</div>
+                    <div class="image_gujarati_text">ભક્ષ્ય</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="11" class="help">
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 38- biscuit.png" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 39- grain.png" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 40- pizza.png" alt="Image 3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Biscuit</div>
+                    <div class="image_hindi_text">बिस्कुट</div>
+                    <div class="image_gujarati_text">બિસ્કીટ</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 6- blue box 1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Grain</div>
+                    <div class="image_hindi_text">अनाज</div>
+                    <div class="image_gujarati_text">અનાજ</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Pizza</div>
+                    <div class="image_hindi_text">पिज़्ज़ा</div>
+                    <div class="image_gujarati_text">પિઝા</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 7- blue box 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य</div>
+                    <div class="image_gujarati_text">ભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="12" class="help">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 41- chips.png" alt="Image 9">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 42- oil.png" alt="Image 10">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">Chips</div>
+                    <div class="image_hindi_text">चिप्स</div>
+                    <div class="image_gujarati_text">ચિપ્સ</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 6- blue box 1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">Oil</div>
+                    <div class="image_hindi_text">तेल</div>
+                    <div class="image_gujarati_text">તેલ</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 14">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य </div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 7- blue box 2.png" alt="Image 1">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य</div>
+                    <div class="image_gujarati_text">ભક્ષ્ય</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="13" class="help">
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 43- carrot.png" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 44- rice.png" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 45- mushroom.png" alt="Image 3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Carrot</div>
+                    <div class="image_hindi_text">गाजर</div>
+                    <div class="image_gujarati_text">ગાજર</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 6- blue box 1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Rice </div>
+                    <div class="image_hindi_text">चावल</div>
+                    <div class="image_gujarati_text">ચોખા</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Mushroom </div>
+                    <div class="image_hindi_text">मशरूम</div>
+                    <div class="image_gujarati_text">મશરૂમ</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 7- blue box 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य</div>
+                    <div class="image_gujarati_text">ભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="14" class="help">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 46- chesse.png" alt="Image 9">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 47- cake.png" alt="Image 10">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">chesse</div>
+                    <div class="image_hindi_text">चीज़</div>
+                    <div class="image_gujarati_text">ચીઝ</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 15- yellow 1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">cake</div>
+                    <div class="image_hindi_text">केक</div>
+                    <div class="image_gujarati_text">કેક</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 14">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य </div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 16- yellow 2.png" alt="Image 1">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya/ Abhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य/ अभक्ष्य </div>
+                    <div class="image_gujarati_text">ભક્ષ્ય/ અભક્ષ્ય </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="15" class="help">
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 48- pickle.png" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 49- honey.png" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 50- burger.png" alt="Image 3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Pickle</div>
+                    <div class="image_hindi_text">आचार</div>
+                    <div class="image_gujarati_text">અથાણું</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Honey</div>
+                    <div class="image_hindi_text">शहद</div>
+                    <div class="image_gujarati_text">મધ</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Burger</div>
+                    <div class="image_hindi_text">बर्गर</div>
+                    <div class="image_gujarati_text">બર્ગર</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="16" class="help">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/butter.png" alt="Image 9">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/banana.png" alt="Image 10">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">Butter</div>
+                    <div class="image_hindi_text">मक्खन</div>
+                    <div class="image_gujarati_text">માખણ</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 6- blue box 1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">Banana</div>
+                    <div class="image_hindi_text">केला</div>
+                    <div class="image_gujarati_text">કેળું</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 14">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य </div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 7- blue box 2.png" alt="Image 1">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य</div>
+                    <div class="image_gujarati_text">ભક્ષ્ય</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="17" class="help">
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 53- pav bhaji.png" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 54- chole puri.png" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 55- noodles.png" alt="Image 3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Pav - bhaji</div>
+                    <div class="image_hindi_text">पाव भाजी</div>
+                    <div class="image_gujarati_text">પાવ - ભાજી</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 6- blue box 1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Chole Puri</div>
+                    <div class="image_hindi_text">छोले पूरी</div>
+                    <div class="image_gujarati_text">છોલે પુરી</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Noodles</div>
+                    <div class="image_hindi_text">नूडल्स</div>
+                    <div class="image_gujarati_text">નૂડલ્સ</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 7- blue box 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य</div>
+                    <div class="image_gujarati_text">ભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="18" class="help">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 56- fish.png" alt="Image 9">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 57- ice.png" alt="Image 10">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">Fish</div>
+                    <div class="image_hindi_text">मछली</div>
+                    <div class="image_gujarati_text">માછલી</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">Ice</div>
+                    <div class="image_hindi_text">बर्फ़</div>
+                    <div class="image_gujarati_text">બરફ</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 14">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य </div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 14">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य </div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="19" class="help">
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 58- onion.png" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 59- meat.png" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 60- egg.png" alt="Image 3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Onion</div>
+                    <div class="image_hindi_text">प्याज</div>
+                    <div class="image_gujarati_text">ડુંગળી</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Meat</div>
+                    <div class="image_hindi_text">मांस</div>
+                    <div class="image_gujarati_text">માંસ</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Egg</div>
+                    <div class="image_hindi_text">अंडा</div>
+                    <div class="image_gujarati_text">ઈંડા</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 5">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-4 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 6">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य</div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center_content" data-id="20" class="help">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 61- palak.png" alt="Image 9">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 62- cabbage.png" alt="Image 10">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 10- red1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">Palak</div>
+                    <div class="image_hindi_text">पालक</div>
+                    <div class="image_gujarati_text">પાલક</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 15- yellow 1.png" alt="Image 12">
+                    </div>
+                    <div class="image_eng_text">Cabbage</div>
+                    <div class="image_hindi_text">पत्ता गोभी</div>
+                    <div class="image_gujarati_text">કોબી</div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 11- red 2.png" alt="Image 14">
+                    </div>
+                    <div class="image_eng_text">Abhakshya</div>
+                    <div class="image_hindi_text">अभक्ष्य </div>
+                    <div class="image_gujarati_text">અભક્ષ્ય</div>
+                </div>
+                <div class="col-md-6 image-container-with-text">
+                    <div class="image-container">
+                        <img src="assets/images/Asset 16- yellow 2.png" alt="Image 1">
+                    </div>
+                    <div class="image_eng_text"> Bhakshya/ Abhakshya</div>
+                    <div class="image_hindi_text">भक्ष्य/ अभक्ष्य </div>
+                    <div class="image_gujarati_text">ભક્ષ્ય/ અભક્ષ્ય </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    $(document).ready(function() {
+        // Hide the text on Image 3 initially
+        $('.image_hindi_text').hide();
+        $('.image_gujarati_text').hide();
+        $('#toptitle_classification_eng').show();
+        $('#lefticon').hide();
+        $('#center_content[data-id="1"]').show();
+        
+
+        // Toggle the visibility of the text on Image 3 when Image 1 is clicked
+        $('#image1Container').click(function() {
+            $('#image3Text').toggle();
+        });
+
+        $('input[name="language"]').click(function() {
+            var selectedOption = $("input[name='language']:checked").val();
+
+            console.log("Selected option: " + selectedOption);
+            if (selectedOption == 'eng') {
+                $('.image_eng_text').show();
+                $('.image_hindi_text').hide();
+                $('.image_gujarati_text').hide();
+                $('#toptitle_classification_eng').show();
+                $('#toptitle_classification_hindi').hide();
+                $('#toptitle_classification_gujarati').hide();
+            } else if (selectedOption == 'hindi') {
+                $('.image_eng_text').hide();
+                $('.image_hindi_text').show();
+                $('.image_gujarati_text').hide();
+                $('#toptitle_classification_eng').hide();
+                $('#toptitle_classification_hindi').show();
+                $('#toptitle_classification_gujarati').hide();
+            } else {
+                $('.image_eng_text').hide();
+                $('.image_hindi_text').hide();
+                $('.image_gujarati_text').show();
+                $('#toptitle_classification_eng').hide();
+                $('#toptitle_classification_hindi').hide();
+                $('#toptitle_classification_gujarati').show();
+            }
+
+        });
+    });
+    function changeSlideToNext() {
+    var current_id = $('#center_content').data('id');
+    $('#center_content[data-id="' + current_id + '"]').hide();
+    var next_id = current_id + 1;
+
+    if (next_id <= 20) {
+        $('#center_content[data-id="' + next_id + '"]').show();
+        $('#center_content').data('id', next_id);
+    }
+
+    if (next_id == 20) {
+        $('#righticon').hide();
+    } else {
+        $('#righticon').show();
+    }
+
+    if (current_id == 1) {
+        $('#lefticon').show();
+    }
+}
+
+function changeSlideToPrev() {
+    var current_id = $('#center_content').data('id');
+    $('#center_content[data-id="' + current_id + '"]').hide();
+    var prev_id = current_id - 1;
+
+    if (prev_id >= 1) {
+        $('#center_content[data-id="' + prev_id + '"]').show();
+        $('#center_content').data('id', prev_id);
+    }
+
+    if (prev_id == 1) {
+        $('#lefticon').hide();
+    } else {
+        $('#lefticon').show();
+    }
+
+    if (current_id == 20) {
+        $('#righticon').show();
+    }
+}
+
+</script>
+</body>
+</html>

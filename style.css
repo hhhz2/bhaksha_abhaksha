@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'SoftMarshmallowTurbo';
+    src: url('../fonts/Soft Marshmallow Turbo.otf');
+}
+body{
+    font-family: 'SoftMarshmallowTurbo';
+}
+
+a.previous-page-icon i {
+    font-size: xxx-large;
+    color: white;
+}
+
+a.previous-page-icon {
+    text-decoration: none;
+}
+
+a.previous-page-icon {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    z-index: 9999999;
+}
+
+/* Style the radio buttons */
+/* Style the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    padding-right: 2rem; /* Move the dropdown to the right */
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px !important;
+    cursor: pointer;
+    border: none;
+    /*color: white;*/
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f0f0f0;
+    padding: 5px; /* Adjust padding to make the box smaller */
+    min-width: 120px; /* Adjust min-width if necessary */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+    line-height: 1.2; /* Adjust line-height to reduce the height */
+    height: auto; /* Allow the height to adjust based on content */
+}
+
+
+
+/* Style the labels and radio buttons */
+.dropdown-content label {
+    display: block;
+    padding: 5px 10px;
+    white-space: nowrap;
+    /*color: white;*/
+}
+
+/* Style the radio buttons */
+.dropdown-content input[type="radio"] {
+    float: right;
+    margin: 0;
+    cursor: pointer;
+    /* Additional styling if needed */
+}
+
+
+
+/* On hover, display the dropdown content */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+    a.previous-page-icon i {
+        font-size: xx-large;
+        color: white;
+    }
+    
+    a.previous-page-icon {
+        position: fixed;
+        left: 5px;
+        top: 2px;
+        z-index: 9999999;
+    }
+}
+

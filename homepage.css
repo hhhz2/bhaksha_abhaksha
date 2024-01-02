@@ -1,0 +1,108 @@
+
+        #toptitle{
+            text-transform: uppercase ;
+            font-size: 3vw;
+            font-weight: bold;
+            color: #000;
+            max-width: fit-content;
+            padding: 1vw 2vw;
+            margin: 0 auto;
+            border-radius: 0 0 10% 10%;
+            margin-bottom: 2vw;
+            margin-top: 6vw;
+
+        }
+        
+        #img-fluid {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #fff; /* Add a white border around the images */
+            border-radius: 10px; /* Add rounded corners to the images */
+            margin: 10px; /* Add some margin to separate the images */
+        }
+        /* Style for the image container */
+        
+        .image_eng_text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2rem;
+            color: black;
+            border-radius: 5px;
+        }
+        
+        .image_hindi_text {
+            font-family: "Noto Sans", sans-serif;
+            font-size: 2rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black;
+            border-radius: 5px;
+        }
+        
+        .image_gujarati_text {
+            font-family: "Noto Sans Gujarati", sans-serif;
+            font-size: 2rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black;
+            border-radius: 5px;
+        }
+        
+        input[type="radio"] {
+            float: right; /* Move the radio buttons to the right */
+            margin-top: 10px; /* Add margin from the top */
+            background-color: blue !important; /* Add a background color */
+            padding: 5px; /* Add padding for spacing */
+            border-radius: 5px; /* Add border radius for rounded corners */
+            margin-right: 10px; /* Add margin between radio buttons */
+            font-size: 11rem !important; /* Add the desired font size here */
+        }
+        
+        /* Style the labels */
+        label {
+            margin-top: 10px; /* Add margin from the top */
+            float: right; /* Move the labels to the right */
+            font-size: 14px; /* Add the desired font size here */
+        }
+        
+        /* Clear floats to prevent layout issues */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        div[style*="position: relative;z-index: -99;"] {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2rem;
+            z-index: -99;
+        }
+        
+        body {
+            background-image: url("assets/images/Asset 12- bg normal.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        label {
+            margin-top: 10px; /* Add margin from the top */
+            float: right; /* Move the labels to the right */
+        }
+        
+        /* Clear floats to prevent layout issues */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        body {
+            margin: 0;
+        }
